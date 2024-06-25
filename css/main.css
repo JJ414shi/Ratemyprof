@@ -1,0 +1,325 @@
+.header ul {
+    background: var(--themeColor);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header ul a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.15vw;
+    font-size: 1.05vw;
+    transition: all 0.3s ease;
+    color: #666;
+}
+
+.header ul a:hover,
+.header ul li.active a {
+    color: black;
+}
+
+
+.index-main {
+    margin: 9.72vw auto 0;
+    width: 64.11vw;
+    position: relative;
+}
+
+.index-main .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 5.25vw;
+    color: white;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.index-main .title p {
+    white-space: nowrap;
+}
+
+
+.page-main {
+    padding: 7.88vw 7.88vw 0;
+    display: flex;
+}
+
+.page-main .left-sec {
+    width: 21.02vw;
+}
+
+.page-main .left-sec h5 {
+    font-size: 1.68vw;
+    font-weight: normal;
+    margin-bottom: 0.26vw;
+}
+
+.page-main .left-sec h4 {
+    font-size: 2.52vw;
+    line-height: 1.2;
+}
+
+
+.page-main .left-sec h3 {
+    font-size: 5.04vw;
+}
+
+
+.page-main .right-sec {
+    width: calc(100% - 21.02vw);
+}
+
+.page-main .right-sec .item-all {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2.10vw;
+}
+
+.page-main .right-sec .item-all a {
+    width: 33.33%;
+    display: block;
+    text-align: center;
+}
+
+.page-main .right-sec .item-all img {
+    width: 13.66vw;
+    height: 14.71vw;
+    margin: auto;
+}
+
+.page-main .right-sec .item-all a:hover img {
+    transform: scale(1.05);
+}
+
+.page-main .right-sec .item-all a .info {
+    margin-top: 0.53vw;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page-main .right-sec .item-all a .info h3 {
+    font-size: 1.05vw;
+    padding: 0 0.53vw;
+}
+
+.page-main .right-sec .item-all a .info p {
+    font-size: 1.05vw;
+    padding: 0 0.53vw;
+}
+
+.page-main .right-sec .item-all a.cheng h3,
+.page-main .right-sec .item-all a.cheng p {
+    background: #f68d2d;
+}
+
+.page-main .right-sec .item-all a.zi h3,
+.page-main .right-sec .item-all a.zi p {
+    background: #98a7fd;
+}
+
+.page-main .right-sec .item-all a.pin h3,
+.page-main .right-sec .item-all a.pin p {
+    background: #f53564;
+}
+
+.page-main .right-sec .item-all a.fen h3,
+.page-main .right-sec .item-all a.fen p {
+    background: #fe7875;
+}
+
+.page-main .right-sec .item-all a.lan h3,
+.page-main .right-sec .item-all a.lan p {
+    background: #62e0d2;
+}
+
+.page-main .right-sec .item-all a.lv h3,
+.page-main .right-sec .item-all a.lv p {
+    background: #94dd67;
+}
+
+.page-main .right-sec .item-all a .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.26vw;
+}
+
+.page-main .right-sec .item-all a .icon .iconfont {
+    font-size: 1.58vw;
+    margin: 0 0.16vw;
+    color: #999;
+}
+
+
+.page-personal {
+    padding: 5.25vw 0 4.20vw 9.14vw;
+    display: flex;
+}
+
+.page-personal .back {
+    width: 9.98vw;
+}
+
+.page-personal .back a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--themeColor);
+    width: 5.47vw;
+    height: 5.47vw;
+}
+
+.page-personal .back a .iconfont {
+    font-size: 2.63vw;
+}
+
+.page-personal .content {
+    position: relative;
+}
+
+.page-personal .content .info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.page-personal .content .info.cheng .once {
+    background: #f68d2d;
+}
+
+.page-personal .content .info.zi .once {
+    background: #98a7fd;
+}
+
+.page-personal .content .info.pin .once {
+    background: #f53564;
+}
+
+.page-personal .content .info.fen .once {
+    background: #fe7875;
+}
+
+.page-personal .content .info.lan .once {
+    background: #62e0d2;
+}
+
+.page-personal .content .info.lv .once {
+    background: #94dd67;
+}
+
+.page-personal .content .info .once {
+    display: flex;
+    align-items: center;
+    font-size: 2.10vw;
+    font-weight: bold;
+    padding: 0.53vw 0.53vw;
+}
+
+.page-personal .content .info .once2{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.page-personal .content .info .once span {
+    font-weight: normal;
+    margin-left: 1.58vw;
+}
+
+.page-personal .content .info .once2 span {
+    margin-left: 0;
+    margin-top: 0.53vw;
+    display: block;
+}
+
+.page-personal .content .info .once .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.26vw;
+    margin-left: 0.53vw;
+}
+
+.page-personal .content .info .once .icon .iconfont {
+    font-size: 2.63vw;
+    margin: 0 0.16vw;
+    color: #fff;
+}
+
+
+.page-personal .pingfen {
+    margin-top: 5.78vw;
+}
+
+.page-personal .pingfen.aki-pf {
+    margin-top: 1.58vw;
+}
+
+.page-personal .pingfen .once {
+    display: flex;
+    align-items: center;
+    font-size: 1.68vw;
+    font-weight: bold;
+    margin-bottom: 1.26vw;
+}
+
+.page-personal .pingfen .once .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.26vw;
+    margin-left: 2.63vw;
+}
+
+.page-personal .pingfen .once .icon .iconfont {
+    font-size: 2.89vw;
+    margin: 0 0.16vw;
+    color: #fff;
+}
+
+.page-personal .pingfen .once .icon .iconfont.active{
+    color: var(--themeColor);
+}
+
+.page-personal a.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14.40vw;
+    height: 4.52vw;
+    border-radius: 2.63vw;
+    background: var(--themeColor);
+    font-size: 2.10vw;
+    margin: 8.41vw 0 0 24.17vw;
+}
+
+.page-personal a.btn .iconfont {
+    font-size: 2.10vw;
+    margin-left: 1.58vw;
+}
+
+.page-personal img.thumb {
+    position: absolute;
+    bottom: 8.41vw;
+    left: 33.63vw;
+    width: 30.22vw;
+}
+
+.page-personal .txt {
+    margin-bottom: 6.57vw;
+}
+
+.page-personal .txt h3 {
+    font-size: 2.52vw;
+    margin-bottom: 1.26vw;
+}
+
+.page-personal .txt p {
+    font-size: 2.10vw;
+}

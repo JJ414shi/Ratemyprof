@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline-style: none;
+    box-sizing: border-box;
+    font-family: "abcfont";
+}
+
+@font-face {
+    font-family: "abcfont";
+    src: url("./zaozigongfangnaisiti.ttf");
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+i {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+input,
+textarea,
+select,
+button {
+    font-size: inherit;
+    resize: none;
+}
+
+a,
+a:focus,
+a:hover {
+    text-decoration: none !important;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+
+html {
+    font-size: 16px;
+    color: black;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    line-height: 1;
+    scroll-behavior: smooth;
+    --themeColor: #F6DC2D;
+    --themeColor2: #F68D2D;
+    background: rgb(217, 217, 217);
+}
+
+::selection {
+    background: var(--themeColor);
+    color: #fff;
+}
+
+:focus {
+    outline-color: var(--themeColor);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    transition: all 0.3s ease;
+    display: block;
+}
